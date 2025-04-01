@@ -7,22 +7,3 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
-
-// import { StrictMode, React } from 'react'
-// import ReactDOM from 'react-dom'
-// import App from "./App";
-
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(<App />)
-
-// ReactDOM.render(
-//     <App />,
-//     document.getElementById('root')
-// )
-
-// const root = ReactDOM.createRoot(document.getElementById("root")); // ✅ Correct way in React 18
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );

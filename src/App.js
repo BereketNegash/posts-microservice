@@ -1,9 +1,14 @@
 import React from "react";
 import PostCreate from "./PostCreate";
+import PostList from "./PostList";
 
 export default ()=> {
-    return <div>
+    return (
+    <div className="container">
         <h1>Create Post</h1>
         <PostCreate />
-    </div>;
+        <h1>Post List</h1>
+        <PostList />
+    </div>
+    );
 };
